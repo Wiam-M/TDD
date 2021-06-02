@@ -2,20 +2,20 @@ describe('Les chaines de caractères : ', function () {//on décrit la fonctionn
   // "it" indique le comportement attendu
     it('Donner la taille d\'une chaine de caractères', function () {
       // on crée un exemple
-        var result = tailleString('Emma');
+        var result = tailleString('Wiam');
         // on donne le reésultat attendu
         expect(result).toEqual(4);
     });
 
     it('Remplacer le premier e d\'une chaine par un espace', function () {
-        var resultSpace = spaceString('je suis Emma et j ai 34ans');
-        expect(resultSpace).toMatch('j  suis Emma et j ai 34ans')
+        var resultSpace = spaceString('je suis Wiam Malek');
+        expect(resultSpace).toMatch('j  suis Wiam Malek')
 
     });
 
       it('Concatener deux chaines de caractères', function () {
-          var result = concatenate('Salut', 'Emma');
-          expect(result).toEqual('Salut Emma');
+          var result = concatenate('Salut', 'Wiam');
+          expect(result).toEqual('Salut Wiam');
       });
     //
       it('Afficher le cinquième caractère d\'une chaine', function () {
